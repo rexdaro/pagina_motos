@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 1rem;
+    z-index: 1;
+}
+
+main{
+    position: relative;
+    top: 5rem;
+}
+
+.contenedor_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.contenedor_header{
+    margin-right: 2rem;
+}
+
+.li_titulo{
+    margin: 0.5rem;
+    list-style-type: none;
+}
+
+.contenedor_links{
+    display: none;
+    flex-direction: row;
+
+}
+
+a{
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto padre */
+}
+
+
+.logo_susuki{
+    width: 5rem;
+}
+
+
+
+
+main{
+    background-color:#f1f1f1;
+}
+
+footer{
+    background-color: #00334d;
+}
+
+
+.div_img_motos{
+    background-color: orange;
+    background-image: url(https://suzukimotosarg.com.ar/wp-content/uploads/2021/08/bgmoto.png);
+    background-size: contain;
+    display: flex;
+    padding: 1rem;
+    
+    flex-wrap: wrap;
+    font-family: "Oswald", "Fjalla One", "Raleway", sans-serif;
+    color: #444444;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.titulos_v-strom{
+    width: 100%;
+}
+
+.titulo_1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.titulo_2{
+    font-weight: 900;
+    font-size: calc(1.3rem + .6vw);
+}
+
+.img_moto{
+   
+    width: 100%;
+    height: 100%;
+    
+}
+
+#moto_blanca{
+    display: none;
+}
+#moto_amarilla{
+    display: none;
+}
+
+.div_seccion_colores{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.letras_colores{
+    width: 10rem;
+    font-weight: 700;
+    
+}
+
+.contenedor_colores{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.colores{
+    height: 1rem;
+    width: 2rem;
+    margin: 0.2rem;
+    border-radius: 10px;
+
+}
+
+#color_negro{
+    background-color: black;
+}
+#color_blanco{
+    background-color: rgb(255, 255, 255);
+}
+
+#color_blanco:hover ~ #moto_blanca{
+    display: block;
+}
+
+
+#color_amarillo{
+    background-color: rgb(255, 238, 0);
+}
+
+.ver_video{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.a_video{
+    text-decoration: none;
+    color: inherit;
+    width: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffee00;
+    padding: 10px;
+    border-radius: 10px;
+    color: #7a2b00;
+}
+
+.icono_video{
+    height: 1.3rem;
+    margin: 0.5rem;
+    
+}
+
+
