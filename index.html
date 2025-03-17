@@ -167,7 +167,36 @@
 
         <div>
             <h2>QUIERO COMPRAR UNA MOTO</h2>
-            <form action=""></form>
+            <form action="">
+                <div>
+                    <label for="nombre">Nombre y Apellido:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="tel" id="telefono" name="telefono" required><br><br>
+
+                    <label for="modelo">Modelos:</label><br>
+                    <select id="modelo" name="modelo" required>
+                        <option value="">Selecciona un modelo</option>
+                        <option value="modelo1">V-STROM 650XT color Negro</option>
+                        <option value="modelo2">V-STROM 650XT color blanco</option>
+                        <option value="modelo3">V-STROM 650XT color amarillo</option>
+                    </select>
+                </div>
+
+                <br>
+                
+                <div>
+                    <label for="mensaje">Escribí tu mensaje aquí:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>                    
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
         </div>
     </main>
 
