@@ -1,6 +1,8 @@
 body {
     background-color: rgb(255, 255, 255);
     margin: 0;
+    font-family: "Fira Sans", "Roboto", "Open Sans", sans-serif;
+    color: #444444;
 }
 
 header {
@@ -182,4 +184,10 @@ footer{
     
 }
 
-
+.eslogan{
+    color: #f6ad09;
+    margin: 1rem 0rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    font-family: "Oswald", "Fjalla One", "Raleway", sans-serif;
+}
