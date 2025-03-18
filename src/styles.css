@@ -199,3 +199,61 @@ footer{
     padding: 2rem;
 }
 
+.div-descripciones{
+    margin-bottom: 5rem;
+}
+
+.titulo-gris-pequeño{
+    color: #adb2b8;
+    font-family: 'Fjalla One';
+    font-weight: 700;
+}
+
+.titulo-blue-mediano{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #00344c;
+    font-family: 'Fjalla One';
+}
+
+
+.div-ficha-tecnica{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.titulo-blue-pequeño{
+    color: #00344c;
+    font-size: calc(1.325rem + .9vw);
+    font-family: "Oswald", "Fjalla One", "Raleway", sans-serif;
+    margin-bottom: 2rem;
+}
+
+.icono_documento{
+    height: 3.5rem;
+}
+
+.tabla-caracteristicas{
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.p-caracteristicas{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.tabla{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 4rem;
+}
+
+.tabla div{
+    width: 50%;
+    margin-bottom: 1rem;
+}
