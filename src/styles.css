@@ -257,3 +257,77 @@ footer{
     width: 50%;
     margin-bottom: 1rem;
 }
+
+.container-formulario{
+    margin: 1rem;
+}
+
+.container-formulario .titulo1{
+    font-family: "Oswald", "Fjalla One", "Raleway", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: calc(1.375rem + 1.5vw);
+    margin-bottom: 3rem;
+}
+
+.container-formulario div input{
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    width: 100%;
+    padding: .1rem .5rem;
+    color: #666;
+    font-style: italic;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-bottom: 0.6rem;
+}
+
+.container-formulario div select{
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    width: 100%;
+    padding: .1rem .5rem;
+    color: #666;
+    font-style: italic;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-bottom: 2.6rem;
+}
+
+.escribe-mensaje{
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+    box-sizing: border-box;
+}
+
+.escribe-mensaje #mensaje1{
+    padding: .5rem 1rem;
+    font-style: italic;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    resize: vertical;
+    width: 100%;
+}
+
+#boton-enviar{
+    background-color: #0561e0;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    font-family: "Fjalla One", "Raleway", sans-serif;
+    font-style: normal;
+}
