@@ -9,6 +9,9 @@ const motoAmarilla = document.querySelector('#moto_amarilla');
 const menu = document.querySelector('#menu');
 const header = document.querySelector('#header');
 
+const icono_menu = document.querySelector('#contenedor_icono_menu');
+const icono_cerrar = document.querySelector('#contenedor_icono_cerrar');
+
 function mostrarImagen(id) {
     document.getElementById(id).style.display = "block";
 }
@@ -65,12 +68,21 @@ divAmarillo.addEventListener('click', () => {
 
 menu.addEventListener('click', () => {
     
-    if(header.style.top !== '-20rem'){
-        header.style.top = '-20rem'
+    if(header.style.top !== '-50dvh'){
+        header.style.top = '-50dvh';
+        icono_menu.style.display = 'none';
+        icono_cerrar.style.display = 'block';
+        
     }
      else{
-        header.style.top = '-83vh';
+        header.style.top = '-83dvh';
+        icono_cerrar.style.display = 'none';
+        icono_menu.style.display = 'block';
     }
     
     
 })
+
+
+
+

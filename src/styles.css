@@ -15,7 +15,7 @@ header {
     background-color: white;
     position: fixed;
     width: calc(100% - 3rem);
-    top: -83vh;
+    top: -83dvh;
     padding: 1rem;
     z-index: 1;
     border-top-left-radius: 0;
@@ -76,6 +76,11 @@ a{
     height: 2.5rem
 }
 
+.contenedor_icono_cerrar{
+    height: 2.5rem;
+    display: none;
+}
+
 .div_logo_menu{
     
     width: 100%;
@@ -103,6 +108,7 @@ footer{
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 
@@ -233,6 +239,12 @@ footer{
     font-family: "Oswald", "Fjalla One", "Raleway", sans-serif;
 }
 
+.p-eslogan{
+    
+    text-align: justify; /* Justifica el texto */    
+    
+}
+
 .container-descripciones{
     padding: 2rem;
 }
@@ -267,6 +279,11 @@ footer{
     font-size: calc(1.325rem + .9vw);
     font-family: "Oswald", "Fjalla One", "Raleway", sans-serif;
     margin-bottom: 2rem;
+}
+
+#ficha-tecnica{
+
+margin: 0;
 }
 
 .icono_documento{
@@ -388,8 +405,7 @@ footer{
 footer div {
     background-color: #00344c;
     margin: 1rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-radius: 1rem;
 }
 
 footer div img{
@@ -413,4 +429,15 @@ footer div div div{
     
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+
+.div_pagina_en_construccion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div_pagina_en_construccion a h2{
+    color: #00344c;
 }
