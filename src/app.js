@@ -6,6 +6,9 @@ const motoNegra = document.querySelector('#moto_negra');
 const motoBlanca = document.querySelector('#moto_blanca');
 const motoAmarilla = document.querySelector('#moto_amarilla');
 
+const menu = document.querySelector('#menu');
+const header = document.querySelector('#header');
+
 function mostrarImagen(id) {
     document.getElementById(id).style.display = "block";
 }
@@ -56,4 +59,18 @@ divAmarillo.addEventListener('click', () => {
     motoBlanca.style.display = 'none';
     motoNegra.style.display = 'none';
     motoAmarilla.style.display = 'block';
+})
+
+// funcionalidad menu
+
+menu.addEventListener('click', () => {
+    
+    if(header.style.top !== '-20rem'){
+        header.style.top = '-20rem'
+    }
+     else{
+        header.style.top = '-83vh';
+    }
+    
+    
 })
