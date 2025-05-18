@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Notas con IA</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@xenova/transformers@2.3.0/dist/transformers.iife.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <h1>Notas de voz con IA</h1>
+
+
+        
+        <button id="toggle-recording"><img id="imagen-button" src="/images/icono-microfono.svg" alt=""></button>
+        
+        <div class="contenedor-grabacion-notas">
+
+            <div class="contenedor-titulo">
+                <h2 id="titulo-div">Nota en curso</h2>
+                <div class="barrita"></div>
+            </div>
+            
+            
+
+            
+            
+            <div class="notas-guardadas">
+                <!-- Aquí se generarán las notas guardadas -->
+
+                <!-- <div class="tarjeta-nota">
+                    <h2>Nota 1</h2>
+                    <p class="resumen">resumen</p>
+                    <p class="nota">Esta es una nota guardada.</p>
+                    <button class="eliminar-nota">Eliminar</button>
+                </div> -->
+            </div>
+
+            <div class="div-transcript">
+                <p id="transcript">🎤 Esperando grabación...</p>
+            </div>
+            
+
+            <div class="contenedor-guardar-general" id="contenedor-guardar-general">
+                <div class="contenedor-guardar" id="guardar">
+                    <img src="./images/icono-guardar.svg" class="icono-guardar" id="icono-guardar" alt="">
+                    <p>Guardar</p>
+                </div>
+            </div>
+            
+            <button id="ocultar-notas"  class="ocultar-notas">Ocultar notas</button>
+
+            
+        </div>   
+
+        <div class="contenedor-botones">
+
+            <button id="ver-notas" class="ver-notas">ver notas guardadas</button>
+
+        </div>        
+            
+
+    </div>
+
+    <div id="pantalla-carga">
+    <div class="loader">⏳ Guardando nota con IA...</div>
+    </div>
+
+    <footer>
+        <p>Created with ❤️ by <strong>Manuel Rivas</strong> - Frontend Developer</p>
+    </footer>
+  
+
+</body>
+<script src="/app.js"></script>
+</html>
